@@ -27,5 +27,10 @@
     "eslint": "^9.26.0",
     "eslint-plugin-vue": "^7.0.0",
     "vue-cli-plugin-tailwind": "~2.2.18"
+  },
+  "overrides": {
+    "@babel/plugin-transform-modules-systemjs": ">=7.29.7",
+    "fast-uri": ">=4.0.0",
+    "tmp": ">=0.2.7"
   }
 }
